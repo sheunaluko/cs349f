@@ -1,1 +1,3 @@
-# cs349f
+# CS349F: Technologies for Financial Systems
+
+### documentation pending
