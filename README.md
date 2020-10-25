@@ -2,4 +2,4 @@
 
 ### Documentation 
 
-See main.ipynb for current implementation details
+See implementation1/main.ipynb for current implementation details
