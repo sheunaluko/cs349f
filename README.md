@@ -1,3 +1,5 @@
 # CS349F: Technologies for Financial Systems
 
-### documentation pending
+### Documentation 
+
+See main.ipynb for current implementation details
