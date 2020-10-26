@@ -2,12 +2,15 @@ import sys
 import time
 import pandas as pd
 import datetime
+import json 
 
 sys.path.insert(1, '/root/CloudExchange/bazel-bin/python/')
 import cloud_ex
 
 
-#changes
+import utilities as u 
+
+#changes --> 
 
 #submits market order by default
 
@@ -35,6 +38,9 @@ class AlgorithmicTrader:
             self.last_seen_trade_timestamp_us_dict[symbol] = 1
             self.time_and_sales_dict[symbol] = pd.DataFrame()
             self.summarized_time_and_sales_dict[symbol] = pd.DataFrame()
+            
+    def set_id(self,id) : 
+        self.trader_id = id
 
     def set_active_symbols(self, symbol_list):
         """
@@ -161,24 +167,23 @@ class AlgorithmicTrader:
 
             # Place order.
             if price is not None and action is not None:
-                print("Placing trade, symbol=",
-                      symbol,
-                      " price=",
-                      price,
-                      " submit_num_shares=",
-                      num_shares,
-                      " buy=",
-                      buy,
-                      file=sys.stderr)
+                
+                logmsg = "[{}] Placing trade, symbol={}, price={}, num_shares={}, buy={}".format(self.trader_id,
+                                                                                                 symbol,
+                                                                                                 price, 
+                                                                                                 num_shares,
+                                                                                                 buy) 
+                #u.logfile("main", logmsg) #-- actually is IO intensive! 
                 order_id = self.place_order(symbol, price, num_shares, buy=buy)
                 submitted_order_ids.append(order_id)
             else:
                 submitted_order_ids.append(None)
-                print("Did not submit an order in this iteration.")
+                #u.logfile("main","Did not submit an order in this iteration.")
 
             # Wait for an interval before placing next order (optional).
             time.sleep(wait_interval)
 
+      
         return submitted_order_ids
 
     def _update_time_and_sales(self, target_symbol):
