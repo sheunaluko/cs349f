@@ -2,4 +2,6 @@
 
 ### Documentation 
 
-See implementation1/main.ipynb for current implementation details
+Trading algorithms :) 
+
+
