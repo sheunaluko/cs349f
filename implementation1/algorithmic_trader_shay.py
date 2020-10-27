@@ -3,6 +3,7 @@ import time
 import pandas as pd
 import datetime
 import json 
+import numpy as np
 
 sys.path.insert(1, '/root/CloudExchange/bazel-bin/python/')
 import cloud_ex
@@ -27,6 +28,7 @@ class AlgorithmicTrader:
         self.bin_interval_ms = bin_interval_ms
         # Create utilities to place orders.
         self.trader = trader
+        self.trader_id = None 
         self.symbol_list = self.trader.GetSymbols() if self.trader else []
         self.set_active_symbols(symbol_list)
         self.last_seen_lob_timestamp_us_dict = {}
@@ -155,6 +157,13 @@ class AlgorithmicTrader:
         :param max_num_orders: Number of algorithm iterations, equates to the maximum orders we can place (int).
         :param wait_interval: Time to wait between each algorithm iteration (float).
         """
+        
+        # if the trader object does not exist then we simulate trading 
+        if not self.trader : 
+            
+            time.sleep(np.random.rand())
+            return ["SIMULATED_ORDER_ID_1" , "SIMULATED_ORDER_ID_2" ] 
+        
         # Submit trades.
         submitted_order_ids = []
         for _ in range(max_num_orders):

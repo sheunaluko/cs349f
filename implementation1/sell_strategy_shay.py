@@ -17,8 +17,8 @@ warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 import cloud_ex
 
 # Import AlgorithmicTrader helper class.
-from algorithmic_trader import AlgorithmicTrader
-from algorithmic_trader import summarize_historical_trades_df
+from algorithmic_trader_shay import AlgorithmicTrader
+from algorithmic_trader_shay import summarize_historical_trades_df
 
 
 #  Sell 

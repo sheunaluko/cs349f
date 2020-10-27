@@ -25,5 +25,5 @@ def append_to_file(fname, strang) :
 def logfile(logname, strang) : 
     fname = logname 
     #can add a log dir here if we want
-    #fname = "logs/" + logname 
+    fname = "logs/" + logname 
     append_to_file(fname,strang + "\n")
