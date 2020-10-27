@@ -32,6 +32,10 @@ class strategy(AlgorithmicTrader):
         """ 
         Random buy
         """
+        
+        if not len(df) : 
+            return None, None 
+        
         # Unpack keyword arguments.
         p = kwargs['p']  # probability that we should trigger trade 
 
@@ -40,7 +44,12 @@ class strategy(AlgorithmicTrader):
         should_trade = (randomness <= p )
         
         # but we do need to know the close price to submit our order
-        row = df.iloc[-1]
+        try : 
+            row = df.iloc[-1]
+        except : 
+            print("ERROR random buy")
+            print(df) 
+            
         p_s = row['ClosePrice']
 
         if should_trade : 

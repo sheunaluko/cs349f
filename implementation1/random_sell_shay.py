@@ -33,6 +33,12 @@ class strategy(AlgorithmicTrader):
         """ 
         Random sell
         """
+        
+              
+        if not len(df) : 
+            return None, None 
+        
+        
         # Unpack keyword arguments.
         p = kwargs['p']  # probability that we should trigger trade 
 

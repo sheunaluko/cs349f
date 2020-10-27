@@ -85,7 +85,7 @@ class strategy(AlgorithmicTrader):
         # Find the weighted average of recent moves (as a percent of stock price).
         weighted_ave_roc = p1 * row['Perc Change'] + p2 * prev_row[
             'Perc Change']
-        print("Momentum value= ", weighted_ave_roc*100)
+        #print("Momentum value= ", weighted_ave_roc*100)
         p_s = row['ClosePrice']
         
         if weighted_ave_roc >= threshold / 100.0:

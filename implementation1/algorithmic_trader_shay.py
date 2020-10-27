@@ -111,6 +111,7 @@ class AlgorithmicTrader:
         :param init_capital: Amount of capital to start with (int).
         :param init_shares: Number of shares to start with (int).
         """
+        #print("BACKTESTING!") 
         df = summarize_historical_trades_df(symbol_historical_trades_df,
                                             self.bin_interval_ms)
         actions_list = []
@@ -120,7 +121,8 @@ class AlgorithmicTrader:
         init_shares_value = init_shares * df.iloc[0]['ClosePrice']
         init_net_worth = init_capital + init_shares_value
 
-        for i in range(len(df)):
+        for i in range(1,len(df)+1):
+            #print(i)
             df_now = df.iloc[:i]
             # Run algorithm and determine buy/sell signal and price to execute trade.
             action, price = self.algorithm(df_now, **kwargs)
@@ -147,7 +149,7 @@ class AlgorithmicTrader:
                init_net_worth) * 100 - 100  # Calculate ROI as a percent.
         return roi, actions_list
 
-    def trade(self, symbol, num_shares, max_num_orders, wait_interval,
+    def trade(self, symbol, num_shares, max_num_orders, wait_interval, trader_id="null", 
               **kwargs):
         """
         Run algorithm and place orders based on algorithm outputs.
@@ -177,17 +179,19 @@ class AlgorithmicTrader:
             # Place order.
             if price is not None and action is not None:
                 
-                logmsg = "[{}] Placing trade, symbol={}, price={}, num_shares={}, buy={}".format(self.trader_id,
+                logmsg = "{}, Placing trade, symbol={}, price={}, num_shares={}, buy={}".format(trader_id,
                                                                                                  symbol,
                                                                                                  price, 
                                                                                                  num_shares,
                                                                                                  buy) 
-                #u.logfile("main", logmsg) #-- actually is IO intensive! 
+                
+                
+                u.logfile("main", logmsg) #-- actually is IO intensive! 
                 order_id = self.place_order(symbol, price, num_shares, buy=buy)
                 submitted_order_ids.append(order_id)
             else:
                 submitted_order_ids.append(None)
-                #u.logfile("main","Did not submit an order in this iteration.")
+                u.logfile("main","{}, Did not submit an order in this iteration.".format(trader_id))
 
             # Wait for an interval before placing next order (optional).
             time.sleep(wait_interval)
@@ -212,7 +216,7 @@ class AlgorithmicTrader:
             target_symbol, latest_trades,
             self.last_seen_trade_timestamp_us_dict[target_symbol])
         if len(latest_trades) > 0:
-            print("{} new trades".format(len(latest_trades)))
+            u.logfile("main","{} new trades".format(len(latest_trades)))
             self.last_seen_trade_timestamp_us_dict[
                 target_symbol] = latest_trades[0].creation_timestamp_
             new_trades = []
@@ -238,7 +242,7 @@ class AlgorithmicTrader:
                     self.time_and_sales_dict[target_symbol],
                     self.bin_interval_ms)
         else:
-            print("no new trades")
+            u.logfile("main","no new trades")
 
 
 # ----- Utils ------
