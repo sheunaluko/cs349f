@@ -4,6 +4,7 @@ import pandas as pd
 import datetime
 import json 
 import numpy as np
+import os 
 
 sys.path.insert(1, '/root/CloudExchange/bazel-bin/python/')
 import cloud_ex
@@ -193,8 +194,11 @@ class AlgorithmicTrader:
                 submitted_order_ids.append(None)
                 u.logfile("main","{}, Did not submit an order in this iteration.".format(trader_id))
 
-            # Wait for an interval before placing next order (optional).
+            # Wait for an interval before placing next order (optional)
             time.sleep(wait_interval)
+            # check environment flag to see if we should exit the trading loop 
+            if os.environ['STOP_TRADING'] == "TRUE" : 
+                return 
 
       
         return submitted_order_ids

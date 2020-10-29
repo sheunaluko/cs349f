@@ -1,0 +1,8 @@
+NOTES 
+
+implemented: 
+- terminating threads using os.environ['STOP_TRADING'] in algorithmic_trader_shay 
+- potential fix for enabling simultaneously trading of multiple symbols (trader.set_active_symbols) 
+
+todo: 
+backtest sin pattern 
