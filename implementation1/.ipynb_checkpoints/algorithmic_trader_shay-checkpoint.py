@@ -14,8 +14,6 @@ import utilities as u
 
 #changes --> 
 
-#submits market order by default
-
 
 class AlgorithmicTrader:
     def __init__(self, trader, symbol_list, bin_interval_ms=500):
@@ -42,8 +40,6 @@ class AlgorithmicTrader:
             self.time_and_sales_dict[symbol] = pd.DataFrame()
             self.summarized_time_and_sales_dict[symbol] = pd.DataFrame()
             
-    def set_id(self,id) : 
-        self.trader_id = id
 
     def set_active_symbols(self, symbol_list):
         """
