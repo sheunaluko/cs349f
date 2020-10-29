@@ -64,3 +64,232 @@ backtest_results=>
 1603857395.8207495, Launching Trading
 
 1603857470.4463496, Doing backtest
+
+1603936968.4154747, Doing backtest
+backtest_results=>
+
+[[11.712296983758705, "DS", "rb_50", [[1, "Buy", 331.0], [2, "Buy", 331.0], [3, "Buy", 331.0], [4, "Buy", 331.0], [5, "Buy", 333.0], [6, "Buy", 333.0], [7, "Buy", 333.0], [8, "Buy", 333.0], [9, "Buy", 333.0], [10, "Buy", 333.0], [11, "Buy", 333.0], [12, "Buy", 333.0], [13, "Buy", 333.0], [14, "Buy", 333.0], [15, "Buy", 333.0], [16, "Buy", 333.0], [17, "Buy", 333.0], [18, "Buy", 333.0], [19, "Buy", 333.0], [20, "Buy", 333.0], [21, "Buy", 330.0], [22, "Buy", 330.0], [23, "Buy", 330.0], [24, "Buy", 330.0], [25, "Buy", 330.0], [26, "Buy", 330.0], [27, "Buy", 330.0], [28, "Buy", 330.0], [29, "Buy", 330.0], [30, "Buy", 330.0]]], [9.68897637795277, "AE", "rb_50", [[1, "Buy", 154.0], [2, "Buy", 154.0], [3, "Buy", 154.0], [4, "Buy", 154.0], [5, "Buy", 154.0], [6, "Buy", 154.0], [7, "Buy", 154.0], [8, "Buy", 154.0], [9, "Buy", 154.0], [10, "Buy", 154.0], [11, "Buy", 154.0], [12, "Buy", 154.0], [13, "Buy", 154.0], [14, "Buy", 154.0], [15, "Buy", 154.0], [16, "Buy", 154.0], [17, "Buy", 154.0], [18, "Buy", 153.0], [19, "Buy", 153.0], [20, "Buy", 153.0], [21, "Buy", 153.0], [22, "Buy", 153.0], [23, "Buy", 153.0], [24, "Buy", 153.0], [25, "Buy", 153.0], [26, "Buy", 153.0], [27, "Buy", 153.0], [28, "Buy", 153.0], [29, "Buy", 153.0], [30, "Buy", 153.0], [31, "Buy", 153.0], [32, "Buy", 153.0], [33, "Buy", 153.0], [34, "Buy", 154.0], [35, "Buy", 154.0], [36, "Buy", 154.0], [37, "Buy", 154.0], [38, "Buy", 156.0], [39, "Buy", 156.0], [40, "Buy", 156.0], [41, "Buy", 156.0], [42, "Buy", 154.0], [43, "Buy", 154.0], [44, "Buy", 154.0], [45, "Buy", 154.0], [46, "Buy", 154.0], [47, "Buy", 154.0], [48, "Buy", 154.0], [49, "Buy", 154.0], [50, "Buy", 154.0], [51, "Buy", 154.0], [52, "Buy", 154.0], [53, "Buy", 154.0], [54, "Buy", 154.0], [55, "Buy", 154.0], [56, "Buy", 154.0], [57, "Buy", 154.0], [58, "Buy", 155.0], [59, "Buy", 155.0], [60, "Buy", 155.0], [61, "Buy", 155.0], [62, "Buy", 155.0], [63, "Buy", 155.0], [64, "Buy", 155.0]]], [9.073047858942076, "BG", "rb_50", [[1, "Buy", 297.0], [2, "Buy", 297.0], [3, "Buy", 297.0], [4, "Buy", 297.0], [5, "Buy", 299.0], [6, "Buy", 299.0], [7, "Buy", 299.0], [8, "Buy", 299.0], [9, "Buy", 299.0], [10, "Buy", 299.0], [11, "Buy", 299.0], [12, "Buy", 299.0], [13, "Buy", 304.0], [14, "Buy", 304.0], [15, "Buy", 304.0], [16, "Buy", 304.0], [17, "Buy", 304.0], [18, "Buy", 304.0], [19, "Buy", 304.0], [20, "Buy", 304.0], [21, "Buy", 302.0], [22, "Buy", 302.0], [23, "Buy", 302.0], [24, "Buy", 302.0], [25, "Buy", 302.0], [26, "Buy", 302.0], [27, "Buy", 302.0], [28, "Buy", 302.0], [29, "Buy", 299.0], [30, "Buy", 299.0], [31, "Buy", 299.0], [32, "Buy", 299.0], [33, "Buy", 299.0]]], [8.658610271903328, "DQ", "rb_50", [[1, "Buy", 231.0], [2, "Buy", 231.0], [3, "Buy", 231.0], [4, "Buy", 231.0], [5, "Buy", 231.0], [6, "Buy", 230.0], [7, "Buy", 230.0], [8, "Buy", 230.0], [9, "Buy", 230.0], [10, "Buy", 233.0], [11, "Buy", 233.0], [12, "Buy", 233.0], [13, "Buy", 233.0], [14, "Buy", 233.0], [15, "Buy", 233.0], [16, "Buy", 233.0], [17, "Buy", 233.0], [18, "Buy", 233.0], [19, "Buy", 233.0], [20, "Buy", 233.0], [21, "Buy", 233.0], [22, "Buy", 231.0], [23, "Buy", 231.0], [24, "Buy", 231.0], [25, "Buy", 231.0], [26, "Buy", 231.0], [27, "Buy", 231.0], [28, "Buy", 231.0], [29, "Buy", 231.0], [30, "Buy", 231.0], [31, "Buy", 229.0], [32, "Buy", 229.0], [33, "Buy", 229.0], [34, "Buy", 229.0], [35, "Buy", 230.0], [36, "Buy", 230.0], [37, "Buy", 230.0], [38, "Buy", 230.0], [39, "Buy", 228.0], [40, "Buy", 228.0], [41, "Buy", 228.0], [42, "Buy", 228.0], [43, "Buy", 229.0]]]]
+
+
+1603937242.7199965, Launching Trading
+
+1603937483.5382495, Doing backtest
+
+1603938044.6133635, Doing backtest
+
+1603938212.85034, Doing backtest
+backtest_results=>
+
+[[0.09647536041221294, "CC", "buy", []], [0.09647536041221294, "CC", "sell", []], [0.06629694983614824, "CD", "buy", []], [0.06629694983614824, "CD", "sell", []]]
+
+
+1603938380.3176312, Launching Trading
+
+1603938600.7858157, Doing backtest
+
+1603939025.3439143, Doing backtest
+
+{}, Backtesting on symbols =>
+
+["BX", "CM", "DN", "DV", "AU", "DA", "CE", "AJ", "BS", "BF", "BT", "DE", "AM", "BM", "CJ", "AA", "CZ", "AW", "CP", "CA", "DT", "CN", "BW", "AD", "AN"]
+
+
+1603939575.055888, Doing backtest
+
+{}, Backtesting on symbols =>
+
+["AO", "DG", "CA", "AH", "AE", "CW", "AV", "DN", "CX", "BW", "CH", "DO", "DJ", "DI", "DK", "BM", "CS", "AC", "BC", "AK", "BN", "CY", "DQ", "CT", "DD"]
+
+
+1603939674.5976598, Doing backtest
+
+{}, Backtesting on symbols =>
+
+["CI", "CE", "BM", "BQ", "AC", "CW", "CP", "BE", "AO", "DR", "DP", "BP", "AN", "AP", "BK", "BN", "CJ", "DC", "CM", "BY", "DL", "BL", "AD", "DJ", "AU"]
+
+
+1603940254.7288558, Doing backtest
+backtest_results=>
+
+[[0.04501523726599908, "BE", "buy", []], [0.034281034281034295, "AO", "buy", []], [0.028314789487302674, "AC", "buy", []], [0.027036662903321677, "DJ", "buy", []]]
+
+
+1603940274.1306977, Launching Trading
+
+{}, Backtesting on symbols =>
+
+["DS", "BZ", "BV", "AV", "BN", "CU", "DN", "BM", "CT", "DK", "AM", "AP", "AX", "DM", "BW", "DC", "DQ", "BA", "DL", "AD", "BC", "BL", "AR", "DI", "DT"]
+
+
+1603940415.0880265, Doing backtest
+backtest_results=>
+
+[[0.06978806420147195, "AM", "buy", []], [0.03467822607535846, "DM", "buy", []], [0.028855522522297384, "DK", "buy", []], [0.02749917337154191, "BL", "buy", []]]
+
+
+1603940463.01258, Launching Trading
+
+{}, Backtesting on symbols =>
+
+["CG", "AG", "AW", "BP", "DD", "CZ", "CO", "AD", "BY", "CD", "CC", "CL", "CS", "BN", "DL", "CH", "BD", "CQ", "CF", "AN", "BA", "DI", "AM", "CX", "DO"]
+
+
+1603940602.00215, Doing backtest
+
+{}, Backtesting on symbols =>
+
+["BP", "CR", "CD", "BC", "DF", "CI", "BL", "CY", "CM", "AQ", "AM", "AP", "DK", "BQ", "BR", "CF", "DO", "AF", "BK", "BZ", "AL", "CC", "CL", "DH", "AD"]
+
+
+1603940629.9226253, Doing backtest
+backtest_results=>
+
+[[0.06101563614865552, "CC", "sell", []]]
+
+
+1603940699.194299, Launching Trading
+
+{}, Backtesting on symbols =>
+
+["BA", "BK", "AW", "DA", "BW", "AZ", "AA", "CO", "BB", "AS", "BY", "BI", "BV", "AM", "AN", "DE", "DI", "BX", "AL", "AH", "BT", "CK", "DV", "CM", "DS"]
+
+
+1603940854.6449099, Doing backtest
+backtest_results=>
+
+[[0.07692307692307697, "AM", "sell", []]]
+
+
+1603940942.0203657, Launching Trading
+
+{}, Backtesting on symbols =>
+
+["AE", "DE", "CG", "CD", "DU", "AM", "BE", "CN", "DN", "CP", "BM", "CW", "AO", "AX", "BZ", "BP", "CI", "DR", "AL", "DV", "AC", "DO", "AS", "CT", "BS"]
+
+
+1603941087.3475423, Doing backtest
+
+Backtesting on symbols =>
+
+["AZ", "DD", "DT", "BV", "DK", "AO", "AP", "BQ", "AM", "BF", "AD", "AC", "AQ", "AN", "AX", "DC", "CG", "CC", "DQ", "DV", "CI", "BA", "CX", "AA", "CP"]
+
+
+1603942155.8580663, Doing backtest
+backtest_results=>
+
+[[0.043865427863974044, "BF", "sell", []]]
+
+
+1603942212.5392163, Launching Trading
+
+Backtesting on symbols =>
+
+["CD", "DD", "AH", "BD", "DH", "BO", "DG", "CL", "AI", "CU", "DU", "CV", "DB", "CJ", "BZ", "DL", "DK", "CN", "AF", "CW", "AM", "AO", "AX", "BS", "BX"]
+
+
+1603942343.9210987, Doing backtest
+backtest_results=>
+
+[[0.040208152645273124, "DU", "sell", []]]
+
+
+1603942401.7724717, Launching Trading
+
+Backtesting on symbols =>
+
+["CM", "CW", "DA", "AU", "BE", "DF", "AD", "AN", "BX", "BM", "BR", "CX", "AR", "DM", "AL", "BP", "BU", "AG", "BN", "BD", "DS", "DT", "CG", "BV", "CK"]
+
+
+1603942534.7825992, Doing backtest
+
+Backtesting on symbols =>
+
+["CH", "AC", "AG", "CZ", "CV", "BM", "AB", "BG", "BT", "DE", "AV", "AJ", "CY", "BN", "AU", "DA", "AO", "CX", "CO", "DO", "CB", "DM", "DC", "BR", "DG"]
+
+
+1603942586.888687, Doing backtest
+backtest_results=>
+
+[[0.05310252262793823, "DC", "buy", []], [0.04563793756484216, "AB", "sell", []]]
+
+
+1603942653.2427552, Launching Trading
+
+Backtesting on symbols =>
+
+["CT", "BX", "AS", "CN", "DE", "DP", "DS", "AB", "AD", "BS", "CI", "AL", "AX", "CV", "AM", "DL", "CR", "BI", "CY", "AH", "AG", "BW", "AI", "DT", "CU"]
+
+
+1603942812.8606937, Doing backtest
+
+Backtesting on symbols =>
+
+["BD", "BK", "CX", "DP", "AG", "CR", "DK", "AA", "CK", "DN", "AP", "BZ", "CV", "DI", "CZ", "AC", "AQ", "BA", "AF", "BG", "AD", "CT", "CC", "AE", "AO"]
+
+
+1603943074.3108668, Doing backtest
+
+Backtesting on symbols =>
+
+["BZ", "AS", "CO", "CB", "AI", "CY", "BG", "CU", "BY", "CC", "DC", "DL", "DH", "CA", "AV", "CZ", "DK", "DT", "AU", "DF", "AJ", "BJ", "AR", "AD", "BC"]
+
+
+1603943080.925029, Doing backtest
+backtest_results=>
+
+[[0.060277859478537685, "AR", "sell", []]]
+
+
+1603943308.2235904, Launching Trading
+
+Backtesting on symbols =>
+
+["DG", "DV", "BP", "AB", "AO", "BU", "CO", "DU", "AE", "DT", "AG", "CE", "BZ", "AF", "BB", "CG", "BR", "DN", "DQ", "CM", "DL", "CI", "AQ", "CL", "CP"]
+
+
+1603943439.9561713, Doing backtest
+backtest_results=>
+
+[[0.05535458851203153, "CP", "buy", []]]
+
+
+1603943571.7031875, Launching Trading
+
+Backtesting on symbols =>
+
+["BI", "AG", "CI", "CO", "AY", "CZ", "BO", "DB", "DH", "CQ", "CC", "CF", "CP", "DT", "AA", "AF", "DE", "DV", "AM", "DK", "CL", "DM", "DJ", "BD", "BS"]
+
+
+1603943695.7933264, Doing backtest
+backtest_results=>
+
+[[0.09598248876491554, "CC", "sell", []]]
+
+
+1603943747.1861494, Launching Trading
+
+Backtesting on symbols =>
+
+["CF", "BB", "CZ", "CV", "BW", "CW", "BI", "DF", "AQ", "DB", "AM", "DG", "CR", "CB", "BD", "CO", "CS", "DU", "CQ", "AR", "DQ", "CE", "BM", "AU", "DJ"]
+
+
+1603943872.146623, Doing backtest
+backtest_results=>
+
+[[0.0661634973534602, "AM", "buy", []]]
+
+
+1603943932.1538036, Launching Trading
+
+Backtesting on symbols =>
+
+["DS", "CD", "DB", "DC", "DT", "AB", "BD", "DP", "AT", "AP", "CO", "AS", "BM", "CV", "AD", "BI", "CR", "BT", "BH", "DI", "AO", "DU", "BV", "AA", "BO"]
+
+
+1603944033.7362096, Doing backtest
+backtest_results=>
+
+[[0.05235646749195836, "DU", "sell", []]]
+
+
+1603944099.5630407, Launching Trading

@@ -90,7 +90,7 @@ class AlgorithmicTrader:
 
         returned_order_ = cloud_ex.Order()
 
-        type_ = cloud_ex.OrderType.market
+        type_ = cloud_ex.OrderType.limit
         action_ = cloud_ex.OrderAction.buy if buy else cloud_ex.OrderAction.sell
 
         # Submit order and wait
